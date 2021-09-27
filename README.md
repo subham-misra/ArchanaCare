@@ -1,2 +1,2 @@
 # ArchanaCare
-its a hospital website
+Its a hospital website
