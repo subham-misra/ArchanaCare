@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*.................nav bar..............*/
+.navbar
+{
+    height: 93px;
+}
+.navbar .logo svg{
+    
+    height: 33px;
+    padding: 5px ;
+    color: #9155A7;
+}.navbar .text a
+{
+    margin-top: 14px; 
+    
+}
+.navbar .navbar-brand
+{
+    color: #9155A7;
+    font-size: 32px;
+    padding: 0%;
+    margin: 0%;
+    font-weight: 200;
+    /*position: absolute;
+    top: 19%;*/
+}.navbar .navbar-brand span
+{
+color: #0DB26B;
+
+}.navbar .text p{
+    color: rgb(173, 164, 164);
+    padding: 0%;
+    margin: 0%;
+   /* position: absolute;
+    top: 25%;*/
+}.navbar .collapse{
+    margin-left: 30px;
+}
+/*..............part-1 start...............*/
+.part-1{
+    margin-top: 94px;
+}
+.part-1 .heading{
+    background-color: #6DCCA3;
+    height: 110px;
+}
+.part-1 .heading h2{
+    color: white;
+    font-weight: 200;
+    font-size: 32px;
+    padding-top: 31px;
+    padding-left: 240px;
+}.part-1 .box 
+{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}.part-1 .box-2
+{
+    padding: 6px 10px;
+    padding-top: 35px;
+}.part-1 .box-2 .text h3{
+    font-size: 40px;
+    color: #0DB26B;
+    font-weight: 400;
+}.part-1 .box-2 .text p{
+    color: rgb(173, 167, 167);
+    font-family: sans-serif;
+    font-weight: 300;
+}.part-1 .box-2 .form .btn
+{
+    color: white;
+    background-color: blueviolet;
+    width: 100%;
+}
+/*...................part-1 ends...............*/
+/*..........foot....start.........*/
+.foot{
+    background-color: #6DCCA3;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}.foot .flex{
+    display: flex;
+    flex-direction: row;
+}.foot .flex p{
+    padding: 1px 7px;
+    font-family: raleway,sans-serif;
+}
+.foot .social img{
+    height: 60px;
+    padding: 10px 7px;
+}.foot .para {
+    padding-top: 13px;
+    padding-left: 7px;
+}
+/*..........foot.....end..........*/

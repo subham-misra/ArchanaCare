@@ -1,0 +1,243 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*.................nav bar..............*/
+.navbar
+{
+    height: 93px;
+}
+.navbar .logo svg{
+    
+    height: 33px;
+    padding: 5px ;
+    color: #9155A7;
+}.navbar .text a
+{
+    margin-top: 14px; 
+    
+}
+.navbar .navbar-brand
+{
+    color: #9155A7;
+    font-size: 32px;
+    padding: 0%;
+    margin: 0%;
+    font-weight: 200;
+    /*position: absolute;
+    top: 19%;*/
+}.navbar .navbar-brand span
+{
+color: #0DB26B;
+
+}.navbar .text p{
+    color: rgb(173, 164, 164);
+    padding: 0%;
+    margin: 0%;
+   /* position: absolute;
+    top: 25%;*/
+}.navbar .collapse{
+    margin-left: 30px;
+}
+/*..................... body-1...........................*/
+.body-1 .slider img{
+    height: 600px;
+}
+.body-1 .slider .carousel-caption{
+    background-color:#0DB26B;
+}
+.body-1 .slider .box{
+    background-color: blueviolet;
+    height: 100px;
+}
+.body-1 .slider .box .item{
+    margin-left: 23%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+.body-1 .slider .box .item h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    
+}
+.body-1 .slider .box .item button{
+    background: rgb(67, 4, 126);
+    border: none;
+    color: white;
+    /*padding: 0px 25px;*/
+    margin-left: 28px;
+    padding: 0px 28px ;
+    cursor: pointer;
+}
+
+/*................................ body-2.............................*/
+.body-2
+{
+    margin-top: 80px;
+}
+.body-2 .head h3{
+    color:#0DB26B;
+    font-size: 38px;
+    font-weight: 300;
+}
+.body-2 .grid{
+ display: grid;
+ grid-template-columns: repeat(3,400px);
+}
+.body-2 .grid .box{
+    text-align: center;
+    margin: 8px 15px;
+}
+.body-2 .grid .box h5{
+    color: #0DB26B;
+    font-weight: 300;
+    font-size: 20px;
+}
+.body-2 .grid .box p{
+    color: rgb(126, 123, 123);
+}
+/*............news box.................*/
+
+.body-2 .news-box{
+    background-color: #F2F2F2;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.body-2 .news-box .head{
+    padding-top: 50px;
+}
+.body-2 .news-box .head h2{
+    color:#0DB26B;
+    font-size: 38px;
+    font-weight: 300;
+    
+}
+.body-2 .news-box .head p{
+    color: rgb(160, 155, 155);
+    font-family: sans-serif;
+    padding: 8px 2px;
+    margin-top: 20px ;
+}
+.body-2 .news-box .text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+.body-2 .news-box .text .email{
+    width: 698px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    text-overflow: ellipsis;
+    text-align: center;
+
+    background: transparent;
+    padding: 6px 3px;
+    
+    
+}
+.body-2 .news-box .text .email:focus{
+    outline: none;
+}
+.body-2 .news-box .text .btn{
+    width: 700px;
+    margin: 5px;
+    background-color:blueviolet;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    margin-bottom: 50px;
+}
+
+/*..........foot....start.........*/
+.foot{
+    background-color: #6DCCA3;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}.foot .flex{
+    display: flex;
+    flex-direction: row;
+}.foot .flex p{
+    padding: 1px 7px;
+    font-family: raleway,sans-serif;
+}
+.foot .social img{
+    height: 60px;
+    padding: 10px 7px;
+}.foot .para {
+    padding-top: 13px;
+    padding-left: 7px;
+}
+/*..........foot.....end..........*/
+
+
+/*...............appoinment .......................starts..........*/
+.body-1 .app-box.show
+{
+    border-radius: 2px;
+    width: 80%;
+    height: 700px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    z-index: 111111;
+    background-color: white;
+    transition: 2s;
+    box-shadow: 1px 2px 44px 0px rgba(122,114,114,0.82);
+-webkit-box-shadow: 1px 2px 44px 0px rgba(122,114,114,0.82);
+-moz-box-shadow: 1px 2px 44px 0px rgba(122,114,114,0.82);
+}
+.body-1 .app-box.hide
+{
+    display: none;
+}
+
+
+.app-box .part-1 .heading{
+    background-color: #6DCCA3;
+    height: 110px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.app-box .part-1 .heading h2{
+    color: white;
+    font-weight: 200;
+    font-size: 32px;
+    padding-top: 31px;
+    padding-left: 120px;
+}
+.app-box .part-1 .heading .close{
+    width: 65px;
+    height: 65px;
+    margin-top: 15px;
+    margin-left: 418px;
+}
+.app-box .part-1 #box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+.app-box .part-1 #box .card
+{
+    height: 405px;
+    text-align: center;
+    font-size: 22px;
+}
+.app-box .part-1 #box .card .btn
+{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+

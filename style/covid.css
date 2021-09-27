@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*.................nav bar..............*/
+.navbar
+{
+    height: 93px;
+}
+.navbar .logo svg{
+    
+    height: 33px;
+    padding: 5px ;
+    color: #9155A7;
+}.navbar .text a
+{
+    margin-top: 14px;  
+}
+.navbar .navbar-brand
+{
+    color: #9155A7;
+    font-size: 32px;
+    padding: 0%;
+    margin: 0%;
+    font-weight: 200;
+    /*position: absolute;
+    top: 19%;*/
+}.navbar .navbar-brand span
+{
+color: #0DB26B;
+
+}.navbar .text p{
+    color: rgb(173, 164, 164);
+    padding: 0%;
+    margin: 0%;
+   /* position: absolute;
+    top: 25%;*/
+}.navbar .collapse{
+    margin-left: 30px;
+}
+/*...............nav bar end.....................................*/
+/*....................body-1 starts.............*/
+.part-1{
+    margin-top: 94px;
+}
+.part-1 .heading{
+    background-color: #6DCCA3;
+    height: 110px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.part-1 .heading h2{
+    color: white;
+    font-weight: 200;
+    font-size: 32px;
+    padding-top: 31px;
+    padding-left: 240px;
+}
+.part-1 .heading .btn{
+    margin-top: 26px;
+}
+.part-1 .heading .btn .btn-1{
+    background-color: #10ce20;
+    color: black;
+    padding: 5px 15px;
+    border: 0.1px solid green;
+    margin: 2px 8px;
+    cursor: pointer;
+}
+.part-1 .heading .btn .btn-2{
+    background-color: orange;
+    color: black;
+    padding: 5px 15px;
+    border: 0.1px solid orangered;
+    margin: 2px 8px;
+    cursor: pointer;
+}
+
+/*...............part-1 end.............*/
+/*................part-2 start...............*/
+.img img
+{
+    width: 145px;
+    height: 120px;
+}.img .img-1
+{
+    padding: 5px 10px;
+
+}.img .img-2
+{
+    padding: 5px 10px;
+    float: right;
+}
+/*...................part-2 ends.................*/
+/**/
+/*..............body-3 st...............*/
+.body-3
+{
+    background-color: rgb(233, 244, 248);
+    margin-top: 55px;
+    margin-bottom: 40px;
+    height: 150px;
+}
+.body-3 .box{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+.body-3 .rec
+{
+    width: 200px;
+    height: 117px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}.body-3 .rec img{
+    background-color:rgb(245, 180, 178);
+    border-radius: 50%;
+    
+}
+.body-3 .box .rec p:hover{
+    border-bottom:2px solid rgb(236, 23, 8);
+    cursor: pointer;
+}
+.body-3 .box .rec h3{
+    font-size: 27px;
+    font-weight: 800;
+}
+/*................body-3 end...........*/
+
+/*..........foot....start.........*/
+.foot{
+    background-color: #6DCCA3;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}.foot .flex{
+    display: flex;
+    flex-direction: row;
+}.foot .flex p{
+    padding: 1px 7px;
+    font-family: raleway,sans-serif;
+}
+.foot .social img{
+    height: 60px;
+    padding: 10px 7px;
+}.foot .para {
+    padding-top: 13px;
+    padding-left: 7px;
+}
+/*..........foot.....end..........*/
