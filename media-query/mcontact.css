@@ -1,0 +1,44 @@
+@media  screen and (max-width:405px) {
+    .navbar
+    {
+        height: 83px;
+        width: 400px;
+    }   
+    .navbar .text a
+    {
+        margin-top: 12px; 
+        
+    }.navbar .navbar-brand
+    {
+        color: #9155A7;
+        font-size: 21px;
+        padding: 0%;
+        margin: 0%;
+        font-weight: 200;
+        /*position: absolute;
+        top: 19%;*/
+    }.collapse li
+    {
+        background-color: #f6fcfc;
+    }
+    .part-1 .heading{
+        background-color: #6DCCA3;
+        height: 70px;
+    }.part-1 .heading h2
+    {
+        font-size: 22px;
+   
+    }.foot .para p {
+        font-size: 12px;
+    }.foot .social img{
+        height: 30px;
+        padding: 5px 2px;
+    }.part-1 .box 
+    {
+        display: flex;
+        flex-direction: column;
+    }.part-1 .box .box-1
+    {
+        width: 100px;
+    }
+}
