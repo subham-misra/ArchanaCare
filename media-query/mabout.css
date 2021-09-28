@@ -52,4 +52,33 @@
 {
    max-width: 270px;
 }
+.body-3
+{
+    background-color: rgb(233, 244, 248);
+    margin-top: 35px;
+    margin-bottom: 20px;
+    height: 550px;
+    
+}
+.body-3 .box{
+    display: flex;
+    flex-direction: column;
+}
+.body-3 .rec
+{
+    width: 200px;
+    height: 117px;
+
+    margin-top: 10px;
+    margin-left: 70px;
+}.foot
+{
+    height: 100px;
+}
+.foot .para p {
+    font-size: 12px;
+}.foot .social img{
+    height: 30px;
+    padding: 5px 2px;
+}
 }
