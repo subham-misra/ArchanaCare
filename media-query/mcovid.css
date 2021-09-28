@@ -1,0 +1,71 @@
+@media  screen and (max-width:405px) {
+    .navbar
+    {
+        height: 83px;
+    }   
+    .navbar .text a
+    {
+        margin-top: 12px; 
+        
+    }.navbar .navbar-brand
+    {
+        color: #9155A7;
+        font-size: 21px;
+        padding: 0%;
+        margin: 0%;
+        font-weight: 200;
+        /*position: absolute;
+        top: 19%;*/
+    }.collapse li
+    {
+        background-color: #f6fcfc;
+    }
+    .part-1 .heading{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 70px;
+    }.part-1 .heading h2
+    {
+        font-size: 22px;
+        float: left;
+        padding-top: 11px;
+        padding-left: 40px;
+    }
+    .part-1 .heading .btn{
+        margin-top: 16px;
+    }.part-1 .heading .btn .btn-1{
+        padding: 3px 10px;
+        font-size: 12px;
+        margin: 1px 3px;
+    }.part-1 .heading .btn .btn-2{
+        padding: 3px 10px;
+        font-size: 12px;
+        margin: 1px 3px;
+    }
+    .foot
+{
+    height: 100px;
+}
+.foot .para p {
+    font-size: 12px;
+}.foot .social img{
+    height: 30px;
+    padding: 5px 2px;
+}
+.body-3
+{
+    height: 525px;
+}
+.body-3 .box{
+    display: flex;
+    flex-direction: column;
+}
+.body-3 .rec
+{
+    width: 200px;
+    height: 117px;
+
+    margin-top: 10px;
+    margin-left: 70px;
+}
+}
